@@ -27,7 +27,7 @@ fisher install kobanyan/tide-asdf-items
 
 | Variable | Description | Type | Default |
 | --- | --- | --- | --- |
-| tide_asdf_golang_files | display golang item if any of these file exists | array |  |
+| tide_asdf_golang_files | display golang item if any of these file exists | array | go.mod |
 | tide_asdf_golang_icon | icon to display in front of golang item | string |  \UE724 |
 | tide_asdf_golang_bg_color | background color of golang item | color | cyan |
 | tide_asdf_golang_color | color of golang item | color | white |
@@ -36,7 +36,7 @@ fisher install kobanyan/tide-asdf-items
 
 | Variable | Description | Type | Default |
 | --- | --- | --- | --- |
-| tide_asdf_nodejs_files | display nodejs item if any of these file exists | array |  |
+| tide_asdf_nodejs_files | display nodejs item if any of these file exists | array | package.json |
 | tide_asdf_nodejs_icon | icon to display in front of nodejs item | string | \UE718 |
 | tide_asdf_nodejs_bg_color | background color of nodejs item | color | green |
 | tide_asdf_nodejs_color | color of nodejs item | color | white |
