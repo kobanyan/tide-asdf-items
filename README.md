@@ -61,7 +61,7 @@ fisher install kobanyan/tide-asdf-items
 
 | Variable | Description | Type | Default |
 | --- | --- | --- | --- |
-| tide_asdf_python_files | display python item if any of these file exists | array |  |
+| tide_asdf_python_files | display python item if any of these file exists | array | Pipfile |
 | tide_asdf_python_icon | icon to display in front of python item | string | \UE724 |
 | tide_asdf_python_bg_color | background color of python item | color | cyan |
 | tide_asdf_python_color | color of python item | color | white |
