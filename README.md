@@ -12,6 +12,7 @@ fisher install kobanyan/tide-asdf-items
 ## Supported languages
 
 - golang
+- java
 - nodejs
 - python
 - ruby
@@ -37,6 +38,15 @@ fisher install kobanyan/tide-asdf-items
 | tide_asdf_golang_icon | icon to display in front of golang item | string |  \UE724 |
 | tide_asdf_golang_bg_color | background color of golang item | color | cyan |
 | tide_asdf_golang_color | color of golang item | color | white |
+
+### java
+
+| Variable | Description | Type | Default |
+| --- | --- | --- | --- |
+| tide_asdf_java_files | display java item if any of these file exists | array | pom.xml build.gradle |
+| tide_asdf_java_icon | icon to display in front of java item | string |  \UE738 |
+| tide_asdf_java_bg_color | background color of java item | color | red |
+| tide_asdf_java_color | color of java item | color | white |
 
 ### nodejs
 
