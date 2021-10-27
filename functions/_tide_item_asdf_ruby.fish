@@ -1,7 +1,6 @@
 function _tide_item_asdf_ruby
-  command -vq asdf; or return
-  set -q tide_asdf_ruby_icon; or set -g tide_asdf_ruby_icon \UE739 # 
-  set -q tide_asdf_ruby_bg_color; or set -g tide_asdf_ruby_bg_color magenta
-  set -q tide_asdf_ruby_color; or set -g tide_asdf_ruby_color white
-  _tide_print_item asdf_ruby $tide_asdf_ruby_icon' ' (_tide_asdf_version ruby)
+  command -q ruby; or return
+  _tai_shows_item $tide_asdf_ruby_files; or return
+  _tai_set ruby \UE739 magenta white
+  _tide_print_item asdf_ruby $tide_asdf_ruby_icon' ' (_tai_version ruby (ruby --version | string split -n ' ' -f 2 | string split 'p' -f 1))
 end

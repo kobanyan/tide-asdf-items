@@ -1,6 +1,6 @@
 # tide-asdf-items
 
-[tide](https://github.com/IlanCosman/tide)'s custom items to show language runtime version managed by [asdf](https://asdf-vm.com)
+[tide](https://github.com/IlanCosman/tide)'s custom items to display language runtime version managed by [asdf](https://asdf-vm.com)
 
 ## Install
 
@@ -18,39 +18,46 @@ fisher install kobanyan/tide-asdf-items
 
 ## Configuration
 
+| Variable | Description | Type | Default |
+| --- | --- | --- | --- |
+| tai_asdf_indicator | display in back of item when the language runtime is manged by asdf | string |  |
+| tai_system_indicator | display in back of item when the language runtime is **NOT** manged by asdf | string | * |
+
 ### golang
 
-| variable | description | default |
-| --- | --- | --- |
-| tide_asdf_golang_show_forcibly | show golang version without 'go.mod' | false |
-| tide_asdf_golang_icon | icon | \UE724 |
-| tide_asdf_golang_bg_color | icon | cyan |
-| tide_asdf_golang_color | icon | white |
+| Variable | Description | Type | Default |
+| --- | --- | --- | --- |
+| tide_asdf_golang_files | display golang item if any of these file exists | array |  |
+| tide_asdf_golang_icon | icon to display in front of golang item | string |  \UE724 |
+| tide_asdf_golang_bg_color | background color of golang item | color | cyan |
+| tide_asdf_golang_color | color of golang item | color | white |
 
 ### nodejs
 
-| variable | description | default |
-| --- | --- | --- |
-| tide_asdf_nodejs_show_forcibly | show nodejs version without 'package.json' | false |
-| tide_asdf_nodejs_icon | icon | \UE718 |
-| tide_asdf_nodejs_bg_color | icon | green |
-| tide_asdf_nodejs_color | icon | white |
+| Variable | Description | Type | Default |
+| --- | --- | --- | --- |
+| tide_asdf_nodejs_files | display nodejs item if any of these file exists | array |  |
+| tide_asdf_nodejs_icon | icon to display in front of nodejs item | string | \UE718 |
+| tide_asdf_nodejs_bg_color | background color of nodejs item | color | green |
+| tide_asdf_nodejs_color | color of nodejs item | color | white |
 
 ### python
 
-| variable | description | default |
-| --- | --- | --- |
-| tide_asdf_python_icon | icon | \UE73C |
-| tide_asdf_python_bg_color | icon | yellow |
-| tide_asdf_python_color | icon | white |
+| Variable | Description | Type | Default |
+| --- | --- | --- | --- |
+| tide_asdf_python_files | display python item if any of these file exists | array |  |
+| tide_asdf_python_icon | icon to display in front of python item | string | \UE724 |
+| tide_asdf_python_bg_color | background color of python item | color | cyan |
+| tide_asdf_python_color | color of python item | color | white |
 
 ### ruby
 
-| variable | description | default |
-| --- | --- | --- |
-| tide_asdf_ruby_icon | icon | \UE739 |
-| tide_asdf_ruby_bg_color | icon | magenta |
-| tide_asdf_ruby_color | icon | white |
+| Variable | Description | Type | Default |
+| --- | --- | --- | --- |
+| tide_asdf_ruby_files | display ruby item if any of these file exists | array |  |
+| tide_asdf_ruby_icon | icon to display in front of ruby item | string | \UE739 |
+| tide_asdf_ruby_bg_color | background color of ruby item | color | magenta |
+| tide_asdf_ruby_color | color of ruby item | color | white |
 
 ## License
 
