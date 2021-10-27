@@ -70,7 +70,7 @@ fisher install kobanyan/tide-asdf-items
 
 | Variable | Description | Type | Default |
 | --- | --- | --- | --- |
-| tide_asdf_ruby_files | display ruby item if any of these file exists | array |  |
+| tide_asdf_ruby_files | display ruby item if any of these file exists | array | Gemfile |
 | tide_asdf_ruby_icon | icon to display in front of ruby item | string | \UE739 |
 | tide_asdf_ruby_bg_color | background color of ruby item | color | magenta |
 | tide_asdf_ruby_color | color of ruby item | color | white |

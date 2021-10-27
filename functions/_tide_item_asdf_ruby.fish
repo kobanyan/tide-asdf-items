@@ -1,5 +1,6 @@
 function _tide_item_asdf_ruby
   command -q ruby; or return
+  set -q tide_asdf_ruby_files; or set -g tide_asdf_ruby_files 'Gemfile'
   _tai_shows_item $tide_asdf_ruby_files;
     or _tai_managed_by_asdf ruby;
     or return
