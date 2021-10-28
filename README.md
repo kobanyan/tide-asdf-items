@@ -21,7 +21,7 @@ fisher install kobanyan/tide-asdf-items
 
 - if language runtime does not exist, item will not be displayed.
 - if any of files configured by variable(like `tide_asdf_golang_files`) exist, item will be displayed.(if you want to display at any time, set empty to the variable.)
-- if language managed by asdf, it will be displayed even without the above files.
+- if language is managed locally by asdf locally, it will be displayed even without the above files.
 
 ## Configuration
 
