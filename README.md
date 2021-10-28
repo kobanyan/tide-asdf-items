@@ -27,8 +27,8 @@ fisher install kobanyan/tide-asdf-items
 
 | Variable | Description | Type | Default |
 | --- | --- | --- | --- |
-| tai_asdf_indicator | display in back of item when the language runtime is manged by asdf | string |  |
-| tai_system_indicator | display in back of item when the language runtime is **NOT** manged by asdf | string | * |
+| tai_asdf_indicator | display in back of item when the language runtime is managed by asdf | string |  |
+| tai_system_indicator | display in back of item when the language runtime is **NOT** managed by asdf | string | * |
 
 ### golang
 
